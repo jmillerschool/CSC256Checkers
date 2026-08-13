@@ -1,0 +1,48 @@
+#divCheckerboard
+{
+    width: 500px;
+    height: 500px;   
+    border: 2px solid #d81414;    
+}
+
+.checkerSquare
+{
+    width: 50px;
+    height: 50px;
+    /*this will cause the squares to be placed next to each other
+    and flow down the next column */
+    float: left;
+    background-color: rgb(16, 98, 131);
+}
+
+.checkerSquareBackColor
+{
+    background-color: rgb(252, 225, 212);
+}
+
+
+.checkerPiece
+{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 3px black;
+    margin: 1px;    
+}
+
+
+
+.checkerPiece-d
+{
+    background-color: #0a2775;    
+}
+
+.checkerPiece-l
+{
+    background-color: rgb(249, 250, 250);
+}
+
+#spnSecret
+{
+    display: none;
+}
